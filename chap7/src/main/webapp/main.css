@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";body {
+	font-family: Arial;
+	font-size: 11pt;
+	margin: 2em;
+	margin-right: 2em;
+	background-image: url(image/bg3.jpg);
+	background-size: 100%;
+	background-repeat: repeat;
+}
+
+p {
+	text-align: center;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	margin-top: 150px;
+	font-size: 50pt;
+}
+
+label {
+	float: left;
+	width: 6em;
+	margin-bottom: 0.5em;
+	color: black;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+	width: 350px;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+br {
+	clear: both;
+}
+
+#submit {
+	margin-left: 110px;
+	background-color: white;
+	background-size: 100%;
+	color: black;
+	height: 30px;
+	width: 100px;
+}
+
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 500px;
+	height: 250px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	margin-bottom: auto;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 40px 100px 0 rgba(0, 0, 0, 0.2);
+	color: #004040;
+}
+
+/* Add some padding inside the card container */
+.container {
+	padding: 2px 16px;
+}
